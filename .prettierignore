@@ -1,0 +1,6 @@
+packages/**/*.mdx
+package.json
+.umi
+.umi-production
+pnpm-lock.yaml
+node_modules
