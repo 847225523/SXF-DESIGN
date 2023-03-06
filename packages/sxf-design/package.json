@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=DEV webpack serve --config build/webpack.dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite --mode development",
+    "build": "vite build --mode production"
   },
   "keywords": [],
   "author": "",
