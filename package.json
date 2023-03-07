@@ -12,6 +12,7 @@
     "commit": "git add . && pnpm lint && pnpm pretty && git cz",
     "clean": "pnpm run clean:dist && pnpm run clean --filter ./packages/ --stream",
     "clean:dist": "rimraf dist",
+    "preview": "cross-env PREVIEW=1 pnpm build:docs && cross-env PREVIEW=1 dumi preview",
     "deploy": "rimraf node_modules/.cache/gh-pages && pnpm build:docs && gh-pages -d docs-dist"
   },
   "keywords": [],

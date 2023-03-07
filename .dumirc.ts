@@ -6,8 +6,8 @@ let base: string | undefined;
 let publicPath: string | undefined;
 
 if (process.env.PREVIEW !== '1') {
-  base = '/sxf-design/'; // 后续部署到gh-pages如果不配置路径会找不到资源
-  publicPath = '/sxf-design/';
+  base = '/SXF-DESIGN/'; // 后续部署到gh-pages如果不配置路径会找不到资源
+  publicPath = '/SXF-DESIGN/';
 }
 
 export default defineConfig({
