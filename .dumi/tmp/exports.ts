@@ -37,13 +37,13 @@ export {
   useRouteData,
   __useFetcher,
   withRouter,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
-export type { History } from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+export type { History } from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
 // umi/client/client/plugin
 export {
   ApplyPluginsType,
   PluginManager,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/umi@4.0.53_ruxxoqzlcu7sxigwvm7zj7g7ma/node_modules/umi/client/client/plugin.js';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/umi@4.0.53_nhktnckc7qi62wkqw7ym4grfaa/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 export { TestBrowser } from './testBrowser';

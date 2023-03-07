@@ -6,7 +6,7 @@ import { ApplyPluginsType } from 'umi';
 import {
   renderClient,
   RenderClientOpts,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';

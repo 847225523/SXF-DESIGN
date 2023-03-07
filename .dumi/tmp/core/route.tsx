@@ -56,49 +56,49 @@ export async function getRoutes() {
       '404': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_6qu4yv6hwoqszipfct7w7cgcri__node_modules__dumi__dist__client__pages__404" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_6qu4yv6hwoqszipfct7w7cgcri/node_modules/dumi/dist/client/pages/404.js'
+            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_33wpwrquqfbcdpvbd6l6oyhgce__node_modules__dumi__dist__client__pages__404" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_33wpwrquqfbcdpvbd6l6oyhgce/node_modules/dumi/dist/client/pages/404.js'
           ),
       ),
       'dumi-context-layout': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/.dumi/tmp/dumi/theme/ContextWrapper.tsx'
+            /* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/.dumi/tmp/dumi/theme/ContextWrapper.tsx'
           ),
       ),
       DocLayout: React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_6qu4yv6hwoqszipfct7w7cgcri__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_6qu4yv6hwoqszipfct7w7cgcri/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
+            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_33wpwrquqfbcdpvbd6l6oyhgce__node_modules__dumi__theme-default__layouts__DocLayout__index" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_33wpwrquqfbcdpvbd6l6oyhgce/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
           ),
       ),
       'docs/guide': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__guide.md" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/docs/guide.md'
+            /* webpackChunkName: "docs__guide.md" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/docs/guide.md'
           ),
       ),
       'docs/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__index.md" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/docs/index.md'
+            /* webpackChunkName: "docs__index.md" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/docs/index.md'
           ),
       ),
       'components/Button/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "packages__sxf-design__src__components__Button__index.md" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/packages/sxf-design/src/components/Button/index.md'
+            /* webpackChunkName: "packages__sxf-design__src__components__Button__index.md" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/packages/sxf-design/src/components/Button/index.md'
           ),
       ),
       'components/Card/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "packages__sxf-design__src__components__Card__index.md" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/packages/sxf-design/src/components/Card/index.md'
+            /* webpackChunkName: "packages__sxf-design__src__components__Card__index.md" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/packages/sxf-design/src/components/Card/index.md'
           ),
       ),
       'demo-render': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_6qu4yv6hwoqszipfct7w7cgcri__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_6qu4yv6hwoqszipfct7w7cgcri/node_modules/dumi/dist/client/pages/Demo/index.js'
+            /* webpackChunkName: "nm__.pnpm__dumi_2.1.14_33wpwrquqfbcdpvbd6l6oyhgce__node_modules__dumi__dist__client__pages__Demo__index" */ '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_33wpwrquqfbcdpvbd6l6oyhgce/node_modules/dumi/dist/client/pages/Demo/index.js'
           ),
       ),
     },

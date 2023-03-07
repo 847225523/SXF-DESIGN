@@ -5,7 +5,7 @@ import {
   createHashHistory,
   createMemoryHistory,
   createBrowserHistory,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/@umijs+renderer-react@4.0.53_ef5jwxihqo6n7gxfmzogljlgcm/node_modules/@umijs/renderer-react';
 import type { UmiHistory } from './historyIntelli';
 
 let history: UmiHistory;

@@ -6,25 +6,25 @@ import {
   frontmatter as fm0,
   toc as toc0,
   texts as txt0,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/docs/guide.md?type=meta';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/docs/guide.md?type=meta';
 import {
   demos as dm1,
   frontmatter as fm1,
   toc as toc1,
   texts as txt1,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/docs/index.md?type=meta';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/docs/index.md?type=meta';
 import {
   demos as dm2,
   frontmatter as fm2,
   toc as toc2,
   texts as txt2,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/packages/sxf-design/src/components/Button/index.md?type=meta';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/packages/sxf-design/src/components/Button/index.md?type=meta';
 import {
   demos as dm3,
   frontmatter as fm3,
   toc as toc3,
   texts as txt3,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/packages/sxf-design/src/components/Card/index.md?type=meta';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/packages/sxf-design/src/components/Card/index.md?type=meta';
 
 export { components } from './atoms';
 export { tabs } from './tabs';

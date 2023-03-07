@@ -7,8 +7,8 @@ import {
   RawIntlProvider,
   createIntl,
   createIntlCache,
-} from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/react-intl@6.2.10_j5ip3o3v6sktjzl5cxtjyfbuo4/node_modules/react-intl';
-import { useIsomorphicLayoutEffect } from '/Users/zhanghaowen/Desktop/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_6qu4yv6hwoqszipfct7w7cgcri/node_modules/dumi/dist/client/theme-api/utils.js';
+} from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/react-intl@6.2.10_j5ip3o3v6sktjzl5cxtjyfbuo4/node_modules/react-intl';
+import { useIsomorphicLayoutEffect } from '/Users/zhanghaowen/Desktop/SXF/SXF-DESIGN/node_modules/.pnpm/dumi@2.1.14_33wpwrquqfbcdpvbd6l6oyhgce/node_modules/dumi/dist/client/theme-api/utils.js';
 import { locales, messages } from './config';
 
 const cache = createIntlCache();
