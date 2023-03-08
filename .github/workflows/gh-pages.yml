@@ -5,26 +5,37 @@ on:
     branches:
       - master
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
+job:
+    name: Deployment
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+   # 下边是新增配置
     steps:
       - name: Checkout
-      - uses: actions/checkout@v2
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-          run_install: true
-     - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/checkout@v3
+
+      # setup node
+      - name: Setup Node.js
+        uses: actions/setup-node@v3 
         with:
           node-version: 16
-          cache: pnpm
-      - name: build Project
-      - run: pnpm run build:docs
-      - name: Deploy
+
+      # setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        id: pnpm-install
+        with:
+          version: 7
+          run_install: false
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs-dist
+          github_token: ${{ secrets.TOKEN }}
+           publish_dir: ./docs-dist
+ 
