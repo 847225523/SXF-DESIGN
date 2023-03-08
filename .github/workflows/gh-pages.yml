@@ -1,19 +1,27 @@
 name: sxf deploy pages
-
+run-name: ${{ github.actor }} is learning GitHub Actions
 on:
   push:
     branches:
       - master
-
 jobs:
-  deploy:
+  check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: pnpm
-      - run: pnpm run build:docs
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs-dist
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - run: pnpm
+  #     - run: pnpm run build:docs
+  #     - name: Deploy
+  #       uses: peaceiris/actions-gh-pages@v3
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         publish_dir: ./docs-dist
