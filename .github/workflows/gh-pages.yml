@@ -5,6 +5,7 @@ on:
     branches:
       - master
 jobs:
+  deploy:
     name: Deployment
     runs-on: ubuntu-latest
     permissions:
