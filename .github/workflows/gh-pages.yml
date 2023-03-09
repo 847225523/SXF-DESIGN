@@ -34,4 +34,8 @@ jobs:
           run_install: false
       # setup pnpm
       - name: Deploy to GitHub Pages
-        run: pnpm run deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./docs-dist
+ 
