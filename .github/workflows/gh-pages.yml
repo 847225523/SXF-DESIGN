@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  deploy:
+  build:
     name: Deployment
     runs-on: ubuntu-latest
     permissions:
@@ -32,10 +32,7 @@ jobs:
         with:
           version: 7
           run_install: false
-      # setup pnpm
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./docs-dist
+       # Run our deployment command
+      - name: Deploying the static website to gh-pages
+         run: pnpm run deploy
  
