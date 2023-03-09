@@ -32,7 +32,7 @@ jobs:
         with:
           version: 7
           run_install: false
-       # Run our deployment command
+      # Run our deployment command
       - name: Deploying the static website to gh-pages
          run: pnpm run deploy
  
